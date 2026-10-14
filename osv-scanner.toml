@@ -1,3 +1,27 @@
 # Upstream BlockRunAI/ClawRouter@147d1b9f2c2b package-lock.json.
 # Lab does not patch upstream lockfiles; ignore until the pin upgrades.
 # Re-evaluate when bumping PIN in scripts/upstream-ci.sh.
+
+[[IgnoredVulns]]
+id = "GHSA-6qxp-vccf-f47h"
+reason = "Upstream pin @modelcontextprotocol/sdk@1.30.0 (dev); wait for ClawRouter pin bump"
+
+[[IgnoredVulns]]
+id = "GHSA-82fw-gwwq-j7x9"
+reason = "Upstream pin vitest/@vitest/mocker@4.1.10 (dev); wait for ClawRouter pin bump"
+
+[[IgnoredVulns]]
+id = "GHSA-848j-6mx2-7j84"
+reason = "Upstream pin elliptic@6.6.1 (no fix); wait for ClawRouter pin bump"
+
+[[IgnoredVulns]]
+id = "GHSA-4mjr-xmp4-gh2g"
+reason = "Upstream pin qs@6.15.3 (dev); wait for ClawRouter pin bump"
+
+[[IgnoredVulns]]
+id = "GHSA-x5fp-wj9c-mxmx"
+reason = "Upstream pin qs@6.15.3 (dev); wait for ClawRouter pin bump"
+
+[[IgnoredVulns]]
+id = "GHSA-68fv-2mgg-jv7q"
+reason = "Upstream pin source-map-js@1.2.1 (dev); wait for ClawRouter pin bump"

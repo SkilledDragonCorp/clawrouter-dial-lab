@@ -11,7 +11,7 @@
   "packageManager": "bun@1.4.3",
   "scripts": {
     "dial": "bun run src/dial.ts",
-    "test": "bun test ./tests",
+    "test": "bun test tests",
     "typecheck": "tsc --noEmit",
     "upstream": "bash scripts/upstream-ci.sh",
     "check:skills": "bun run scripts/check-skills.ts",

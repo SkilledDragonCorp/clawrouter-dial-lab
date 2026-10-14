@@ -42,7 +42,7 @@ jobs:
         run: bun run typecheck
 
       - name: Lab tests
-        run: bun test ./tests
+        run: bun test
 
       - name: Dial smoke (keyless)
         run: bun run src/dial.ts --profile eco "hello from CI"

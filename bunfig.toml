@@ -1,3 +1,4 @@
 [test]
 # Lab suite only — never pick up vendor/ClawRouter (upstream uses scripts/upstream-ci.sh).
-root = "./tests"
+root = "tests"
+pathIgnorePatterns = ["vendor/**"]

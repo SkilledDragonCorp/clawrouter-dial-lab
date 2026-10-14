@@ -1,0 +1,3 @@
+# Upstream BlockRunAI/ClawRouter@147d1b9f2c2b package-lock.json.
+# Lab does not patch upstream lockfiles; ignore until the pin upgrades.
+# Re-evaluate when bumping PIN in scripts/upstream-ci.sh.

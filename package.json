@@ -1,0 +1,27 @@
+{
+  "name": "@skilleddragon/clawrouter-dial-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SkilledDragon minilab: local ClawRouter dial — real route() with fake pricing, no wallet/network",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "packageManager": "bun@1.4.3",
+  "scripts": {
+    "dial": "bun run src/dial.ts",
+    "test": "bun test ./tests",
+    "typecheck": "tsc --noEmit",
+    "upstream": "bash scripts/upstream-ci.sh",
+    "check:skills": "bun run scripts/check-skills.ts",
+    "audit": "bash scripts/bun-audit.sh"
+  },
+  "dependencies": {
+    "@blockrun/clawrouter": "0.12.287"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "typescript": "5.9.3"
+  }
+}
